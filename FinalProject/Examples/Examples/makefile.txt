@@ -1,0 +1,3 @@
+# Specify the dependencies and commands for each target
+program1: main.c I2C.c I2C.h MotorHat.c MotorHat.h PWM.c PWM.h Robot.h Sensor.c
+	gcc -o program1 main1.c I2C.c MotorHat.c PWM.c Sensor.c
